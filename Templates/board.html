@@ -1,0 +1,288 @@
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="/docs/4.0/assets/img/favicons/favicon.ico">
+
+    <title>Enkolili CBO</title>
+
+    <!-- Bootstrap  -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
+
+    <link rel="canonical" href="https://getbootstrap.com/docs/4.0/examples/carousel/">
+
+    <!-- Bootstrap core CSS -->
+    <link href="../../dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+
+
+    
+    <style type="text/css">
+      .carousel-inner > .carousel-item > img {
+        width: 100%;
+        margin: auto;
+      }
+      .bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        user-select: none;
+      }
+
+      @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+        }
+      }
+
+      .b-example-divider {
+        height: 3rem;
+        background-color: rgba(0, 0, 0, .1);
+        border: solid rgba(0, 0, 0, .15);
+        border-width: 1px 0;
+        box-shadow: inset 0 .5em 1.5em rgba(0, 0, 0, .1), inset 0 .125em .5em rgba(0, 0, 0, .15);
+      }
+
+      .b-example-vr {
+        flex-shrink: 0;
+        width: 1.5rem;
+        height: 100vh;
+      }
+
+      .bi {
+        vertical-align: -.125em;
+        fill: currentColor;
+      }
+
+      .nav-scroller {
+        position: relative;
+        z-index: 2;
+        height: 2.75rem;
+        overflow-y: hidden;
+      }
+
+      .nav-scroller .nav {
+        display: flex;
+        flex-wrap: nowrap;
+        padding-bottom: 1rem;
+        margin-top: -1px;
+        overflow-x: auto;
+        text-align: center;
+        white-space: nowrap;
+        -webkit-overflow-scrolling: touch;
+      }
+      header{
+        margin-bottom: 120px;
+      }
+      .carousel{
+        margin-bottom: 20px;
+      }
+    </style>
+  </head>
+  <body>
+
+    <header>
+      <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-danger">
+        <a class="navbar-brand" href="#">
+        <img src="../images/logo.jpeg" alt="" width="100px" height="100px" class="d-inline-block align-text-top" style="border-radius: 300px;">
+      </a>
+        <a class="navbar-brand" href="#"><h3>ENKOLILI CBO</h3></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="aboutus.html">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contactus.html">Contact</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="donate.html">Donate</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="gallery.html">Gallery</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="projects.html">Projects</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="board.html">The Board</a>
+            </li>
+          </ul>
+          <form class="form-inline mt-2 mt-md-0">
+            <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+          </form>
+        </div>
+      </nav>
+    </header>
+
+    <main role="main">
+
+      <div id="myCarousel" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+          <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+          <!-- <li data-target="#myCarousel" data-slide-to="1"></li>
+          <li data-target="#myCarousel" data-slide-to="2"></li> -->
+        </ol>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img class="first-slide" src="../images/enkolilielders.jpeg" alt="">
+            <div class="container">
+              <div class="carousel-caption text-left">
+                <h1>Enkolili Board with Elders</h1>
+                <p>The Chairman of Enkolili CBO held a meeting with the community elders and the KWS to come up with strategies to help the community deal with challenges affecting them.</p>
+                <p><a class="btn btn-lg btn-danger" href="#" role="button">Join us today</a></p>
+              </div>
+            </div>
+          </div>
+          <!-- <div class="carousel-item">
+            <img class="second-slide" src="../images/maa6.jpg" alt="">
+            <div class="container">
+              <div class="carousel-caption">
+                <h1>Another example headline.</h1>
+                <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+                <p><a class="btn btn-lg btn-primary" href="#" role="button">Learn more</a></p>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img class="third-slide" src="../images/maa3.jpg" alt="">
+            <div class="container">
+              <div class="carousel-caption text-right">
+                <h1>One more for good measure.</h1>
+                <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+                <p><a class="btn btn-lg btn-primary" href="#" role="button">Browse gallery</a></p>
+              </div>
+            </div>
+          </div> -->
+        </div>
+        <a class="carousel-control-prev" href="#myCarousel" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#myCarousel" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+
+      <!-- Test Carousel -->
+      
+      <!-- Test Carousel -->
+
+
+      <!-- Marketing messaging and featurettes
+      ================================================== -->
+      <!-- Wrap the rest of the page in another container to center all the content. -->
+
+      <div class="container marketing">
+
+        <!-- Three columns of text below the carousel -->
+        <div class="row">
+          <div class="col-lg-4">
+            <a target="_blank" href="../images/mopel.jpg">
+              <img class="rounded-circle" src="../images/mopel.jpg" alt="Generic placeholder image" width="140" height="140">
+            </a>
+            
+            <h2>Chairperson</h2>
+            <div class="collapse text-justify" id="collapseExample1">
+              <p><b>Name</b>: Mr Leonard Mopel</p>
+              <p><b>Specialization</b>: Leadership</p>
+              <p><b>Experience</b>:Chairman Kiswa Skåne(Kenyans in Sweden). Chairman Oldonyio-orok human wildlife conflict committee. Chair/founder <a href="">enkolili-cbo.org</a>.</p>
+            </div>
+            <p><a class="btn btn-secondary" data-toggle="collapse" href="#collapseExample1" role="button" aria-expanded="false" aria-controls="collapseExample1">View details &raquo;</a></p>
+          </div><!-- /.col-lg-4 -->
+          <div class="col-lg-4">
+            <img class="rounded-circle" src="../images/ngelesapeter.jpg" alt="Generic placeholder image" width="140" height="140">
+            <h2>Vice Chair</h2>
+            <div class="collapse text-justify" id="collapseExample2">
+              <p><b>Name</b>: Mr Peter Ngelesa </p>
+              <p><b>Specialization</b>: Community Development</p>
+              <p><b>Experience</b>: Over 20 years experience in Community Development having previously worked on community based projects with World Vision Kenya and The Anglican Church of Kenya.</p>
+            </div>
+            <p><a class="btn btn-secondary" data-toggle="collapse" href="#collapseExample2" role="button" aria-expanded="false" aria-controls="collapseExample2">View details &raquo;</a></p>
+          </div><!-- /.col-lg-4 -->
+          <div class="col-lg-4">
+            <img class="rounded-circle" src="../images/kenneth.jpeg" alt="Generic placeholder image" width="140" height="140">
+            <h2>Treasurer</h2>
+            <div class="collapse text-justify" id="collapseExample3">
+              <p><b>Name</b>: Mr Kenneth Karuko </p>
+              <p><b>Specialization</b>: Biotechnology</p>
+              <p><b>Education</b>: University of Nairobi, Bachelor of Science in Microbiology and Biotechnology, Class of 2016
+                KCA university, Certified Public Accountant Finalist (CPA), Class of 2017</p>
+            </div>
+            <p><a class="btn btn-secondary" data-toggle="collapse" href="#collapseExample3" role="button" aria-expanded="false" aria-controls="collapseExample3">View details &raquo;</a></p>
+          </div><!-- /.col-lg-4 -->
+        </div><!-- /.row -->
+
+
+        <!-- START THE FEATURETTES -->
+
+        <hr class="featurette-divider">
+
+        <div class="row">
+          <div class="col-lg-4">
+            <img class="rounded-circle" src="../images/moile.jpeg" alt="Generic placeholder image" width="140" height="140">
+            <h2>Secretary</h2>
+            <div class="collapse text-justify" id="collapseExample4">
+              <p><b>Name</b>: Ms Abigael Moile </p>
+              <p><b>Specia;ization</b>: Abigael Moile is a Child protection activist and champion, as well as a graduate of Daystar University having pursued a Bachelor’s Degree in International Relations and Security Studies.</p>
+              <p>She is also a volunteer at Enkolili Community Based Organization and advisor on implementation of child protection projects.  </p>
+              <p><b>Experience</b>: She recently coordinated an education focused project which strengthens the education systems and ensure there is community inclusion in the education systems fully present and up to date with any changes in the systems to enable them support their children. Abigael, also coordinated a UNICEF supported project, implemented by World Vision Kenya focusing on strengthening mechanisms that support rescue and protection of children at risk of early marriages and other harmful cultural practices within Maasai pastoralist communities. She also coordinated initiatives that involve collaboration with different levels of partners in monitoring and reporting on child protection and gender related interventions. She has gained experience in correspondences and reporting to different donors and sponsors through my current and previous assignments.</p>
+            </div>
+            <p><a class="btn btn-secondary" data-toggle="collapse" href="#collapseExample4" role="button" aria-expanded="false" aria-controls="collapseExample4">View details &raquo;</a></p>
+          </div><!-- /.col-lg-4 -->
+          <div class="col-lg-4">
+            <img class="rounded-circle" src="../images/resonkosiom.jpg" alt="Generic placeholder image" width="140" height="140">
+            <h2>Organizing Secretary</h2>
+            <div class="collapse text-justify" id="collapseExample5">
+              <p><b>Name</b>: Mrs Joan Reson Kosiom</p>
+              <p><b>Specialization</b>: Leadership</p>
+              <p><b>Experience</b>:5 Years</p>
+            </div>
+            <p><a class="btn btn-secondary" data-toggle="collapse" href="#collapseExample5" role="button" aria-expanded="false" aria-controls="collapseExample5">View details &raquo;</a></p>
+          </div><!-- /.col-lg-4 -->
+          <div class="col-lg-4">
+            <img class="rounded-circle" src="../images/kilena.jpg" alt="Generic placeholder image" width="140" height="140">
+            <h2>Co-ordinator</h2>
+            <div class="collapse text-justify" id="collapseExample6">
+              <p><b>Name</b>: Ms Joyce Kilena  </p>
+              <p><b>Specialization</b>: Leadership</p>
+              <p><b>Experience</b>:5 Years</p>
+            </div>
+            <p><a class="btn btn-secondary" data-toggle="collapse" href="#collapseExample6" role="button" aria-expanded="false" aria-controls="collapseExample6">View details &raquo;</a></p>
+          </div><!-- /.col-lg-4 -->
+        </div><!-- /.row -->
+
+        <hr class="featurette-divider">
+
+        <!-- /END THE FEATURETTES -->
+
+      </div><!-- /.container -->
+
+
+      <!-- FOOTER -->
+      <footer class="container fixed-bottom bg-danger text-center text-white">
+        <p class="float-right"><a href="#">Back to top</a></p>
+        <p>&copy; 2022 Enkolili CBO | All rights reserved &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
+      </footer>
+    </main>
+
+  </body>
+</html>
